@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Logo from "../../img/grunyons.png";
 
 const LandingPage = () => {
   return (
-    <div>LandingPage</div>
+    <div>
+
+        <img src={Logo}></img>
+
+    </div>
   )
 }
 
