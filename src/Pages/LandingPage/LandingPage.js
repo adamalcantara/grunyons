@@ -6,6 +6,7 @@ const LandingPage = () => {
     <div>
 
         <img src={Logo}></img>
+        <h2 id="soon">New website coming soon.</h2>
 
     </div>
   )
