@@ -6,5 +6,11 @@
 }
 
 #grunyonLogo {
+    width: 500px;
+    height: auto;
+}
 
+#soon {
+    color: white;
+    font-size: 50px;
 }
