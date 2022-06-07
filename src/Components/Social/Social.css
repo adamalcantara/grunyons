@@ -1,3 +1,7 @@
 .socialicon {
     color: white;
 }
+
+.socialicon:hover {
+    color: grey;
+}
