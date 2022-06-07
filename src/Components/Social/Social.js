@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./Social.css";
 
 // import icons
 import { FaSpotify } from "react-icons/fa";
