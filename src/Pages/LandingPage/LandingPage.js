@@ -10,7 +10,7 @@ const LandingPage = () => {
   return (
     <div id="socialPage">
 
-        <img src={Logo}></img>
+        <img src={Logo} id="grunyonLogo"></img>
         <h2 id="soon">New website coming soon.</h2>
 
         <Social />
