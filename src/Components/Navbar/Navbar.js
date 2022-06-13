@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import logo from "../../img/grunyons.png";
 
+import "./Navbar.css";
+
 class Navbar extends Component {
 
 
@@ -11,7 +13,7 @@ class Navbar extends Component {
           
         {/* Regular navigation */}
         <div id="nav">
-            <Link to="/" id="linkLogo"><img src={logo}></img></Link>
+            <Link to="/" id="linkLogo"><img src={logo} id="logo"></img></Link>
             <ul id="navigation">
                 <li><Link to="/" className='menuItem'>Home</Link></li>
                 <li><Link to="/about" className='menuItem'>About</Link></li>
