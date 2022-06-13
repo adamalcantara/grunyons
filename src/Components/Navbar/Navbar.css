@@ -5,8 +5,9 @@
 }
 
 #logo {
-    width: 225px;
+    width: 175px;
     height: auto;
+    margin: auto 30px;
 }
 
 #navigation {
