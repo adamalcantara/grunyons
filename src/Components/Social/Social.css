@@ -1,5 +1,10 @@
 .socialicon {
     color: white;
+    font-size: 30px;
+}
+
+#socialIcon:first-child {
+    margin-right: 40px;
 }
 
 .socialicon:hover {
