@@ -2,14 +2,19 @@ import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // import pages
-import Home from "./Pages/Home/Home"
+import Navbar from "./Components/Navbar/Navbar";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <Router>
       
       <div className="App">
-          <Route exact path="/" component={Home} />
+        <Navbar />
+          <div className='pageContent'>
+            <Route exact path="/" component={Home} />
+
+          </div>
       </div>
 
     </Router>

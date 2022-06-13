@@ -12,6 +12,9 @@ class Navbar extends Component {
         {/* Regular navigation */}
         <div id="nav">
             <Link to="/" id="linkLogo"><img src={logo}></img></Link>
+            <ul id="navigation">
+                
+            </ul>
         </div>
 
       </div>
