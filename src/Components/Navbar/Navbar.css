@@ -18,11 +18,17 @@
 }
 
 li {
-    margin: auto 10px;
+    margin: auto 20px;
     
 }
 
 .menuItem {
     text-decoration: none;
     color: black;
+    font-size: 30px;
+}
+
+.menuItem:hover {
+    color: rgb(110, 110, 110);
+    border-bottom: 2px solid rgb(110, 110, 110);
 }
