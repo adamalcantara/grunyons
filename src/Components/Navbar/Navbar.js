@@ -17,9 +17,9 @@ class Navbar extends Component {
             <ul id="navigation">
                 <li><Link to="/" className='menuItem'>Home</Link></li>
                 <li><Link to="/about" className='menuItem'>About</Link></li>
-                <li><Link to="/contact" className='menuItem'>Contact</Link></li>
                 <li><a href="https://m.facebook.com/TheGrunyons/?__tn__=C-R" target="_blank" rel="noopener noreferrer" className='menuItem'>Facebook</a></li>
                 <li><a href="https://open.spotify.com/artist/5llELXjQfGt1bHjT9t6cqF" target="_blank" rel="noopener noreferrer" className='menuItem'>Spotify</a></li>
+                <li><Link to="/contact" className='menuItem'>Contact</Link></li>
             </ul>
         </div>
 
