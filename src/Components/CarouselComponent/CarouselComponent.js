@@ -13,7 +13,7 @@ import slider4 from "../../img/slider/slider4.jpg";
 const CarouselComponent = () => {
   return (
     <div className="carousel-wrapper">
-        <Carousel>
+        <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showStatus={false} interval={4000} transitionTime={450} animationHandler="fade" className="main-slide">
             <div>
                 <img src={slider1} alt="the grunyons at Spring Sing" />
             </div>
