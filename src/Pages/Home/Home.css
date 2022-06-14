@@ -1,0 +1,35 @@
+#linkSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 45%;
+    aspect-ratio: auto 3/2;
+    position: relative;
+}
+
+#spotify {
+    background-image: url(../../img/home/spotify.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(25, 25, 25, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 45px;
+    transition: 0.3s ease;
+}
+
+.overlay:hover {
+    background-color:rgba(25, 25, 25, 1);
+}
