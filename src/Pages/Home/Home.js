@@ -19,7 +19,7 @@ const Home = () => {
       </div>
 
       <div id="facebook" className='links'>
-          <a href='https://open.spotify.com/artist/5llELXjQfGt1bHjT9t6cqF' target="_blank" rel="noopener noreferrer">
+          <a href='https://www.facebook.com/TheGrunyons/' target="_blank" rel="noopener noreferrer">
             <div className='overlay'>Facebook</div>
           </a>
       </div>
