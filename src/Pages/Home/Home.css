@@ -1,5 +1,10 @@
+#introParagraph {
+    margin: 50px auto;
+}
+
 #linkSection {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -11,6 +16,12 @@
 
 #spotify {
     background-image: url(../../img/home/spotify.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#facebook {
+    background-image: url(../../img/home/facebook.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -32,4 +43,18 @@
 
 .overlay:hover {
     background-color:rgba(25, 25, 25, 1);
+}
+
+@media screen and (max-width: 900px) {
+    #linkSection {
+        flex-direction: column;
+    }
+
+    .links:first-child {
+        margin-bottom: 30px;
+    }
+
+    .links {
+        width: 100%;
+    }
 }

@@ -13,16 +13,14 @@ const Home = () => {
     <div id="linkSection">
       
       <div id="spotify" className='links'>
-          <a href='https://open.spotify.com/artist/5llELXjQfGt1bHjT9t6cqF'>
+          <a href='https://open.spotify.com/artist/5llELXjQfGt1bHjT9t6cqF' target="_blank" rel="noopener noreferrer">
             <div className='overlay'>Spotify</div>
           </a>
       </div>
 
-      <div id="spotify" className='links'>
-          <a href='https://open.spotify.com/artist/5llELXjQfGt1bHjT9t6cqF'>
-            <div className='overlay'>Facebook
-            
-            </div>
+      <div id="facebook" className='links'>
+          <a href='https://open.spotify.com/artist/5llELXjQfGt1bHjT9t6cqF' target="_blank" rel="noopener noreferrer">
+            <div className='overlay'>Facebook</div>
           </a>
       </div>
     </div>
