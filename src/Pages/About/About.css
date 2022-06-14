@@ -1,3 +1,21 @@
 .spacer {
-    height: 30px;
+    height: 50px;
+}
+
+#downtownImg {
+    float: left;
+    width: 40%;
+    margin: 0 20px 20px 0;
+}
+
+#trophyImg {
+    float: right;
+    width: 40%;
+    margin: 20px 0 0 20px;
+}
+
+#aleImg {
+    float: left;
+    width: 40%;
+    margin: 0 20px 20px 0;
 }
