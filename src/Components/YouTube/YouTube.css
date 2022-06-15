@@ -3,3 +3,9 @@
     text-align: center;
 }
 
+#videoContainerAll {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-gap: 20px;
+    justify-content: center;
+}
