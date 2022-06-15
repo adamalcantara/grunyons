@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+
+import Spotify from '../../Components/Spotify/Spotify';
 
 const Music = () => {
   return (
-    <div>Music</div>
+    <div>
+      <Spotify />
+    </div>
   )
 }
 
