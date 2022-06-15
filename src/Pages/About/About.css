@@ -5,17 +5,34 @@
 #downtownImg {
     float: left;
     width: 40%;
+    height: auto;
     margin: 0 20px 20px 0;
 }
 
 #trophyImg {
     float: right;
     width: 40%;
+    height: auto;
     margin: 20px 0 0 20px;
 }
 
 #aleImg {
     float: left;
     width: 40%;
+    height: auto;
     margin: 0 20px 20px 0;
+}
+
+@media screen and (max-width: 900px) {
+    #downtownImg {
+        width: 100%;
+    }
+    
+    #trophyImg {
+        width: 100%;
+    }
+    
+    #aleImg {
+        width: 100%;
+    }
 }
