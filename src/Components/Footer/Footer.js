@@ -1,9 +1,13 @@
 import React from 'react'
 
-export const Footer = () => {
+import "./Footer.css"
+
+const Footer = () => {
   return (
     <div>
-        <p>&copy; 2022. Website designed and maintained by <a href='https://alcantaradevelopment.com/' target="_blank" rel="noopener noreferrer" id="alcantaraDev">Alcantara Development</a></p>
+        <p id="footer">&copy; The Grunyons 2022. Website designed and maintained by <a href='https://alcantaradevelopment.com/' target="_blank" rel="noopener noreferrer" id="alcantaraDev">Alcantara Development</a></p>
     </div>
   )
 }
+
+export default Footer

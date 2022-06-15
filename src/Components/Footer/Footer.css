@@ -1,0 +1,12 @@
+#footer {
+    text-align: center;
+}
+
+#alcantaraDev {
+    color: black;
+    text-decoration: none;
+}
+
+#alcantaraDev:hover {
+    text-decoration: underline;
+}

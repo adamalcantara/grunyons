@@ -8,6 +8,8 @@ import About from "./Pages/About/About";
 import Music from "./Pages/Music/Music";
 import Contact from "./Pages/Contact/Contact";
 
+import Footer  from './Components/Footer/Footer';
+
 function App() {
   return (
     <Router>
@@ -22,6 +24,7 @@ function App() {
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </div>
+        <Footer />
       </div>
 
     </Router>
