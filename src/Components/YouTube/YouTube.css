@@ -23,3 +23,9 @@
     width: 100%;
     height: 100%;
 }
+
+@media screen and (max-width: 900px){
+    #videoContainerAll {
+        grid-template-columns: repeat(1, 100%);
+    }
+}
