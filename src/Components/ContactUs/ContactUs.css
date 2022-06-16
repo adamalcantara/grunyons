@@ -30,3 +30,7 @@
     background-color: rgb(243, 243, 243);
     cursor: pointer;
 }
+
+#formSuccess {
+    text-align: center;
+}

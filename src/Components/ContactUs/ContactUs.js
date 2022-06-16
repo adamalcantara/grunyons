@@ -8,7 +8,7 @@ import "./ContactUs.css";
 function ContactForm() {
   const [state, handleSubmit] = useForm("xvolyynl");
   if (state.succeeded) {
-    return <p>Thanks for contacting us! We will respond to you shortly.</p>;
+    return <p id="formSuccess">Thanks for contacting us! We will respond to you shortly.</p>;
   }
   return (
     <form onSubmit={handleSubmit} id="contactUsForm">
