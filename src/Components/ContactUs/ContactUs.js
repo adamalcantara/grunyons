@@ -8,7 +8,7 @@ import "./ContactUs.css";
 function ContactForm() {
   const [state, handleSubmit] = useForm("xvolyynl");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <p>Thanks for contacting us! We will respond to you shortly.</p>;
   }
   return (
     <form onSubmit={handleSubmit} id="contactUsForm">
@@ -19,6 +19,7 @@ function ContactForm() {
         id="name"
         type="text"
         name="name"
+        className="formElement"
       />
       <label htmlFor="email">
         Email Address
@@ -27,6 +28,7 @@ function ContactForm() {
         id="email"
         type="email"
         name="email"
+        className="formElement"
       />
       <ValidationError
         prefix="Email"
@@ -39,13 +41,14 @@ function ContactForm() {
       <textarea
         id="message"
         name="message"
+        className="formElement"
       />
       <ValidationError
         prefix="Message"
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting}>
+      <button type="submit" disabled={state.submitting} id="submitBtn">
         Submit
       </button>
     </form>
