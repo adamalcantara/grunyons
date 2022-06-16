@@ -3,7 +3,6 @@ import React from 'react';
 import "./Contact.css";
 
 import ContactUs from "../../Components/ContactUs/ContactUs";
-import ContactImg from "../../img/contact.jpeg";
 
 const Contact = () => {
   return (

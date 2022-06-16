@@ -3,8 +3,8 @@ import React from 'react'
 import "./About.css";
 
 import Downtown from "../../img/about/downtown.jpg";
-import Trophy from "../../img/about/trophy.jpeg";
-import Ale from "../../img/about/ale.jpeg";
+import Trophy from "../../img/about/trophy.jpg";
+import Ale from "../../img/about/ale.jpg";
 
 const About = () => {
   return (
