@@ -5,6 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./CarouselComponent.css"
 
+// import slider images
 import slider1 from "../../img/slider/slider1.jpg";
 import slider2 from "../../img/slider/slider2.jpg";
 import slider3 from "../../img/slider/slider3.jpg";
@@ -12,6 +13,7 @@ import slider4 from "../../img/slider/slider4.jpg";
 
 const CarouselComponent = () => {
   return (
+    //   Carousel starts here
     <div className="carousel-wrapper">
         <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showStatus={false} interval={3000} transitionTime={450} animationHandler="fade" className="main-slide">
             <div>

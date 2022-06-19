@@ -17,6 +17,7 @@ class Navbar extends Component {
     return (
       <div>
 
+        {/* mobile navigation starts here */}
         <div id="mobileNav">
 
           <div id="mobileNavPieces">
