@@ -8,6 +8,7 @@ import About from "./Pages/About/About";
 import Music from "./Pages/Music/Music";
 import Contact from "./Pages/Contact/Contact";
 
+// import the footer
 import Footer  from './Components/Footer/Footer';
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       
       <div className="App">
         <Navbar />
+
+        {/* div for the page content with routes enclosed */}
           <div id='pageContent'>
             <Routes>
               <Route path="/" element={<Home />} />
