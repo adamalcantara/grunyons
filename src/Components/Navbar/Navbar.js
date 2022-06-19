@@ -20,11 +20,13 @@ class Navbar extends Component {
         {/* mobile navigation starts here */}
         <div id="mobileNav">
 
+          {/* Mobile logo */}
           <div id="mobileNavPieces">
             <div>
               <img src={logo} id="logosmall" alt="logo"></img>
             </div>
 
+            {/* Hamburger element for mobile navbar */}
             <div id="burger" onClick={this.handleClick}>
                   <div id="line1" className={this.state.clicked ? 'line1click' : ''}></div>
                   <div id="line2" className={this.state.clicked ? 'line2click' : ''}></div>
@@ -32,6 +34,7 @@ class Navbar extends Component {
             </div>
           </div>
 
+          {/* Mobile navbar itself */}
           <div className={this.state.clicked ? 'navbar active' : 'navbar'}>
               <Link to="/" className='navlinks' onClick={this.handleClick}>Home</Link>
               <Link to="/about" className='navlinks' onClick={this.handleClick}>About</Link>
