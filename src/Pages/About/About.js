@@ -1,7 +1,9 @@
 import React from 'react'
 
+// import pages
 import "./About.css";
 
+// import images
 import Downtown from "../../img/about/downtown.jpg";
 import Trophy from "../../img/about/trophy.jpg";
 import Ale from "../../img/about/ale.jpg";
