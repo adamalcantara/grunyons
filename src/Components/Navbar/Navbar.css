@@ -47,10 +47,12 @@ li {
     margin-top: 5px;
 }
 
+/* div of the burger */
 #burger {
     cursor: pointer;
     position: absolute;
     right: 10px;
+    top: 45px;
 }
 
 #burger div {
