@@ -9,8 +9,8 @@
 }
 
 .links {
-    width: 45%;
-    padding-bottom: 30%;
+    width: 30%;
+    padding-bottom: 20%;
     position: relative;
 }
 
@@ -22,6 +22,12 @@
 
 #facebook {
     background-image: url(../../img/home/facebook.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#itunes {
+    background-image: url(../../img/home/itunes.jpg);
     background-size: cover;
     background-position: center;
 }
