@@ -43,7 +43,7 @@
 }
 
 .overlay:hover {
-    background-color:rgba(25, 25, 25, 1);
+    background-color:rgba(25, 25, 25, 0.8);
 }
 
 @media screen and (max-width: 900px) {
