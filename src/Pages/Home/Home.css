@@ -58,9 +58,15 @@
     background-color:rgba(25, 25, 25, 0.8);
 }
 
+@media screen and (max-width: 1800px) {
+    #linkSection {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media screen and (max-width: 900px) {
     #linkSection {
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 
     .links:nth-child(2n + 1) {
