@@ -3,14 +3,14 @@
 }
 
 #linkSection {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 
 .links {
-    width: 24%;
-    padding-bottom: 17%;
+    width: 100%;
+    padding-bottom: 66%;
     position: relative;
 }
 
