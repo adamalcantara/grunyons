@@ -32,6 +32,12 @@
     background-position: center;
 }
 
+#youtube {
+    background-image: url(../../img/home/youtube.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 /* Overlay for link section */
 .overlay {
     position: absolute;
