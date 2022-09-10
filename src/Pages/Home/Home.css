@@ -59,6 +59,7 @@
     background-color:rgba(25, 25, 25, 0.8);
 }
 
+/* media queries */
 @media screen and (max-width: 1800px) {
     #linkSection {
         grid-template-columns: 1fr 1fr;
