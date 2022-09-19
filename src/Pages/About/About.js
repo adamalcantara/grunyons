@@ -16,7 +16,7 @@ const About = () => {
 
       <div className='spacer'></div>
 
-      <img src={Trophy} id="trophyImg" alt="The Grunyons with a trophy"></img>In 1966, the Grunyons began performing at a gathering of similar amateur vocal jazz ensembles called “Spring Sing“. Customarily held in various locations, “Spring Sing” is hosted by various groups in the organization known as the American A Cappella Alliance. “Spring Sing” has been hosted numerous times by The Grunyons, recently in 1997 in Dearborn, MI, in 2004 at Walt Disney World in FL, and in 2013 in Detroit, MI. Groups involved now represent about a dozen locations, from a far west as Denver Colorado.
+      <img src={Trophy} id="trophyImg" alt="The Grunyons with a trophy"></img>In 1966, the Grunyons began performing at a gathering of similar amateur vocal jazz ensembles called “Spring Sing“. Customarily held in various locations, “Spring Sing” is hosted by various groups in the organization known as the American A Cappella Alliance. “Spring Sing” has been hosted numerous times by The Grunyons, recently in 1997 in Dearborn, MI, in 2004 at Walt Disney World in FL, and in 2013 in Detroit, MI. Groups involved now represent about a dozen locations, from as far west as Denver Colorado.
 
       <div className='spacer'></div>
 
