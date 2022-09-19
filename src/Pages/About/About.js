@@ -20,7 +20,7 @@ const About = () => {
 
       <div className='spacer'></div>
 
-      In 1978, the Grunyons felt the need to formalize their organization in order to support and sponsor vocal jazz activities in Michigan beyond their own avocational pursuits. TheMichigan Vocal Jazz Society, a Michigan non-profit corporation, was formed to implement a variety of related functions, from hosting appearances of luminaries like the Kings Singers or the Swingle Singers, to conducting vocal jazz workshops for educational purposes.
+      In 1978, the Grunyons felt the need to formalize their organization in order to support and sponsor vocal jazz activities in Michigan beyond their own avocational pursuits. The Michigan Vocal Jazz Society, a Michigan non-profit corporation, was formed to implement a variety of related functions, from hosting appearances of luminaries like the Kings Singers or the Swingle Singers, to conducting vocal jazz workshops for educational purposes.
 
       <div className='spacer'></div>
 
