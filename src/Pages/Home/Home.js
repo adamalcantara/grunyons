@@ -1,15 +1,25 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import CarouselComponent from '../../Components/CarouselComponent/CarouselComponent';
 
 import "./Home.css"
 
+import poster from "../../img/2022christmas.jpg";
+
 const Home = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal(prev => !prev);
+  }
+
   return (
     <div id="home">
       <CarouselComponent />
       {/* <p id="introParagraph">The Grunyons are a Michigan</p> */}
 
+
+      
     {/* Section for links on the homepage */}
     <div id="linkSection">
       
@@ -39,7 +49,6 @@ const Home = () => {
 
 
     </div>
-
     </div>
     
   )

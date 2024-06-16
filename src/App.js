@@ -11,6 +11,8 @@ import Contact from "./Pages/Contact/Contact";
 // import the footer
 import Footer  from './Components/Footer/Footer';
 
+
+
 function App() {
   return (
     <Router>

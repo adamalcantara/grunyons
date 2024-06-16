@@ -2,6 +2,46 @@
     margin: 50px auto;
 }
 
+#christmas {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+#christmasPoster {
+    width: 45%;
+    height: auto;
+    box-shadow: 0 0 5px 5px rgba(25, 25, 25, 0.2);
+    margin-right: 30px;
+}
+
+.paragraphBreak {
+    height: 20px;
+}
+
+#buyTixButton {
+    font-size: 20px;
+    background: black;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+#buyTixButton a {
+    text-decoration: none;
+    color: white;
+}
+
+#buyTixButton:hover {
+    border: 2px solid green;
+    background: white;
+    cursor: pointer;
+}
+
+#buyTixButton a:hover {
+    color: red;
+}
+
 #linkSection {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -78,5 +118,13 @@
     .links {
         width: 100%;
         padding-bottom: 66%;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    #christmas {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
     }
 }
