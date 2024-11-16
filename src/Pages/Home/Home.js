@@ -5,6 +5,7 @@ import CarouselComponent from '../../Components/CarouselComponent/CarouselCompon
 import "./Home.css"
 
 import poster from "../../img/2022christmas.jpg";
+import Upcoming from '../../Components/Upcoming/Upcoming';
 
 const Home = () => {
   const [showModal, setShowModal] = useState(false);
@@ -17,6 +18,8 @@ const Home = () => {
     <div id="home">
       <CarouselComponent />
       {/* <p id="introParagraph">The Grunyons are a Michigan</p> */}
+
+      <Upcoming />
 
 
       
