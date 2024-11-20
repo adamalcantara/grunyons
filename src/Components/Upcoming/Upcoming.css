@@ -8,7 +8,9 @@
     width: 100%;
     font-size: 1.5vw;
 }
-
+td {
+    padding: 5px;
+}
 .performanceButton {
     background-color: rgb(53, 53, 53);
     padding: 2px 10px;
