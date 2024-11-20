@@ -10,12 +10,16 @@ import slider1 from "../../img/slider/slider1.jpg";
 import slider2 from "../../img/slider/slider2.jpg";
 import slider3 from "../../img/slider/slider3.jpg";
 import slider4 from "../../img/slider/slider4.jpg";
+import slider5 from "../../img/slider/slider5.jpg";
 
 const CarouselComponent = () => {
   return (
     //   Carousel starts here
     <div className="carousel-wrapper">
         <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showStatus={false} interval={3000} transitionTime={450} animationHandler="fade" className="main-slide">
+            <div>
+                <img src={slider5} alt="the grunyons at Spring Sing" />
+            </div>
             <div>
                 <img src={slider1} alt="the grunyons at Spring Sing" />
             </div>
