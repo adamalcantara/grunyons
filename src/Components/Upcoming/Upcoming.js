@@ -7,11 +7,11 @@ const Upcoming = () => {
         <p id='performanceHeader'>Upcoming Performances:</p>
 
         <table id='performanceTable'>
-            <tr>
+            {/* <tr>
                 <td>12&#47;6&#47;24</td>
                 <td>Rackham Auditorium, Ann Arbor</td>
                 <td><a href='https://www.eventbrite.com/e/the-friars-69th-annual-study-break-concert-tickets-1081484873369' target="_blank" className='performanceButton'>Buy Tickets</a></td>
-            </tr>
+            </tr> */}
             <tr>
                 <td>12&#47;9&#47;24</td>
                 <td>Grosse Pointe United Methodist Church</td>
