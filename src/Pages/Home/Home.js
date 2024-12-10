@@ -19,7 +19,7 @@ const Home = () => {
       <CarouselComponent />
       {/* <p id="introParagraph">The Grunyons are a Michigan</p> */}
 
-      <Upcoming />
+      {/* <Upcoming /> */}
 
 
       
