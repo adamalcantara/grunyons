@@ -2,7 +2,7 @@
    
 
 ## Description 
-The Grunyons are a Michigan-based vocal jazz group of which my father has been the musical director for many years. They asked me to build them a new website which would be a simple front end application. This was built in React, and is responsive. The navigation collapses into a hamburger menu on mobile devices. In addition, there is a Spotify implementation on the music page which pulls music from their "Just In Time" album.
+The Grunyons are a Michigan-based vocal jazz group of which my father has been the musical director for over twenty years. They asked me to build them a new website which would be a simple front end application. This was built in React, and is responsive. The navigation collapses into a hamburger menu on mobile devices. In addition, there is a Spotify implementation on the music page which pulls music from their "Just In Time" album.
 
 ## Deployed Project
 [Click here to visit the deployed project](https://thegrunyons.com)
